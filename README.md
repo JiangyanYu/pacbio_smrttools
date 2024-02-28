@@ -6,5 +6,8 @@ docker environment:
 ubuntu 22.04
 smrttools v13.0 
 
-step 2: 
+to-do: add pacbio bin to path
+
+step 2: TALON based mis-priming tag (use docker with python 3.6)
+
    
