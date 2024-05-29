@@ -11,7 +11,7 @@ pbfusion discover --gtf gencode.v39.annotation.gtf.bin --output-prefix isoseq --
 python3 visualize_fusion.py -o fusion_browser_shot.png -a gencode.v39.annotation.gtf -f isoseq.breakpoints.groups.bed -b 852-1.bam
 
 TALON: computing very expensive!!! (step 2: pull TALON: docker pull jiangyanyu/talonv4:1.0 docker environment: python3.6)
-However, TALON can be used to merge multiple samples to generate integrated PB IDs.
+However, TALON can be used to merge multiple samples to generate integrated PB IDs. (https://github.com/Magdoll/cDNA_Cupcake/wiki/Handling-multiple-samples:-Creating-a-master-transcriptome)
 
 
    
